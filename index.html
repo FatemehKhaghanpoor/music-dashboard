@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="header--title">
+            <span>Music</span>
+            <h2>Dashboard</h2>
+        </div>
+        <div class="user--info">
+         
+            <div class="search--box">
+             
+                <i class="fa-solid  fa-search"></i>
+              <input type="text" placeholder="Search">
+                
+            </div>
+            <img src="./image/mojall-man-minevisam.jpeg" alt="">
+        </div>
+    </div>
+    <div class="side-bar-left">
+       <div class="mainpic">
+        <img src="./image/Mojal-1.jpg" alt="" class="singer">
+       </div>
+       <div class="topic">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li>
+                <a href="#">
+                    <i class="fa fa-map" aria-hidden="true"></i>
+                    <span>Discover</span>
+                </a>
+            </li>
+            <!---------->
+            <li  >
+                <a href="#" >
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    <span>Trending</span>
+                </a>
+            </li>
+            <!---------->
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-music"></i>
+                    <span>Album</span>
+                </a>
+            </li>
+            <!---------->
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Play list</span>
+                </a>
+            </li>
+            <!---------->
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>favorites</span>
+                </a>
+            </li>
+            <!---------->
+                <div class="player">
+                    <p>most famous:</p>
+                    <p>Ou</p>
+                  <audio controls class="audio">
+                      <source src="./music/ou-128.mp3" type="audio/ogg">
+                     
+                    Your browser does not support the audio element.
+                    </audio>
+                  
+                </div>
+            
+            
+        
+            
+             <li class="logout">
+                <a href="#">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+
+                    <span>Profile</span>
+                </a>
+            </li>
+        </ul>
+       </div> 
+       </div>
+    </div>
+    <div class="side-bar-right">
+       
+        
+        <div class="logo"></div>
+        <span>
+            <h3>Recommended Music:</h3>
+        </span>
+        <ul class="menu " id="recmusic">
+            
+            
+           
+            <!---------->
+            <li class="logout">
+                <a href="#">
+                    
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    <span>Log out</span>
+                </a>
+            </li>
+        </ul>
+       </div> 
+    </div>
+    <div class="main">
+        <div class="card">
+            <div class="container">
+                
+<div class="swiper">
+ 
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./image/song (1).jpg" alt="" srcset=""></div>
+    <div class="swiper-slide"><img src="./image/song (1).webp" alt="" srcset=""></div>
+    <div class="swiper-slide"><img src="./image/song (2).jpg" alt="" srcset=""></div>
+    <div class="swiper-slide"><img src="./image/song (2).webp" alt="" srcset=""></div>
+   
+  </div>
+  
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+ 
+</div>
+            </div>
+                    </div>
+        <div class="card singer">
+            <img src="./image/10.jpg" alt="" class="singer">
+        </div>
+        <div class="card singer">
+            <img src="./image/13e9816235a011263dc9cfeaa1c9a173.jpg" alt="" class="singer">   
+             
+        </div>
+        <div class="card singer">
+            <img src="./image/ghj.jpg" alt="" class="singer">
+        </div>
+        <div class="card singer">
+            <img src="./image/profile (2).jfif" alt="" class="singer">
+        </div>
+        <div class="card singer">
+            <img src="./image/400x400.jfif" alt="" class="singer">
+        </div>
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/fetch.js"></script>
+    
+</body>
+</html>

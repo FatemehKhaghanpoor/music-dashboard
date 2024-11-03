@@ -1,0 +1,37 @@
+{
+    "singer": [
+      {  "id":1,
+        "name": "Ma Mardom",
+        "singer":"Mojal",
+        "cover": "https://mojall.com/covers/ma-mardom.jpg"
+        
+      },
+      
+      {  "id":3,
+        "name": "Dastam ra begir",
+        "singer":"Mohammad Motamedi",
+        "cover": "https://www.ganja2music.com/Image/Post/2.2024/450/mohammad-motamedi-8211-dastam-ra-begir_450.jpg"
+        
+      },{"id":2,
+      "name": "last wish",
+      "singer":"Mojal",
+      "cover": "https://mojall.com/covers/akharin-arezoo.jpg"
+      
+    },{  "id":4,
+      "name": "Kooye Eshgh",
+      "singer":"Salar Aghili",
+      "cover": "https://webahang.ir/wp-content/uploads/2023/07/salar-aghili-kooye-eshgh1.jpg"
+      
+    },{  "id":5,
+    "name": "Mikhaham zende bemanam ",
+    "singer":"Shajarian",
+    "cover": "https://musics-fa.com/wp-content/uploads/2021/02/Homayoun-Shajaryan-Mikhaham-Zende-Bemanam-Music-fa.com_.jpg"
+    
+  },{  "id":2,
+  "name": "Ba man bekhan",
+  "singer":"Alireza Ghorbani",
+  "cover": "https://rozmusic.com/wp-content/uploads/2020/01/Alireza-Ghorbani-Asheghane-Nist.jpg"
+  
+}
+    ]
+  }
