@@ -19,5 +19,6 @@ const swiper = new Swiper('.swiper', {
     
   });
 
+  console.log("test");
   
  
